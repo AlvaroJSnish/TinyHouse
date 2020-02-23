@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "scripts": {
     "start": "nodemon src/index.ts",
-    "build": "tsc -p ./"
+    "build": "tsc -p ./",
+    "seed": "ts-node temp/seed.ts"
   },
   "dependencies": {
     "apollo-server-express": "^2.10.1",
